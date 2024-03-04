@@ -1,0 +1,211 @@
+*{
+    background-color: white;
+    font-family: "Inter";
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 0em;
+    text-align: left;
+    padding: 0;
+    margin: 0;
+}
+.logo{
+    width: auto;
+    margin: 10px 10px 10px 5px;
+}
+
+main{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    margin: 0px auto;
+}
+
+.encriptar{
+    text-transform: lowercase;
+    border: none;
+    outline: none;
+    resize: none;
+    font-size: 20px;
+    padding: 14px;
+
+
+}
+
+.encriptar::placeholder{
+    color: blue;
+}
+
+.texto-Encriptar{
+    margin-top: 20px;
+    margin-left: 90px;
+}
+
+.desencriptar{
+    background-color: rgba(241, 236, 232, 0.884);
+    text-transform: lowercase;
+    border: none;
+    border-radius: 20px;
+    font-size: 20px;
+    background-image: url(img/Muñeco.png);
+    background-repeat: no-repeat;
+    margin-top: 20px;
+    margin-left: 30px;
+    padding: 14px;
+
+}
+
+.desencriptar::placeholder{
+    color: green;
+    text-align: center;
+}
+
+.texto-Encriptado{
+    text-align: center;
+}
+
+.bt-encriptar{
+    font-size: 14px;
+    border: none;
+    outline: none;
+    resize: none;
+    text-transform: lowercase;
+    border-radius: 10px;
+    cursor: pointer;
+    Color: white;
+    Background-color: #0A3871;
+    padding: 15px 55px;
+
+
+}
+.bt-encriptar:hover{
+    background-color: gainsboro ;
+    opacity: 0.9;
+    color: #0A3871;
+}
+
+.bt-desencriptar{
+    Color: #0A3871;
+    font-size: 14px;
+    border: none;
+    outline: none;
+    resize: none;
+    text-transform: lowercase;
+    background-color: gainsboro;
+    cursor: pointer;
+    border-radius: 10px;
+    padding: 15px 55px;
+    font-weight: bold;
+
+}
+
+.bt-desencriptar:hover{
+    background-color: #0A3871 ;
+    opacity: 0.9;
+    color: gainsboro;
+
+}
+
+.botones{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.bt-copiar{
+    display: flex;
+    color: blue;
+    font-size: 14px;
+    border: none;
+    outline: none;
+    resize: none;
+    text-transform: lowercase;
+    background-color:grey;
+    border-radius: 10px;
+    cursor: pointer;
+    padding: 15px 55px;
+    font-weight: bold;
+
+
+}
+
+.bt-copiar:hover{
+    background-color: #0A3871;
+
+    color: red;
+
+}
+
+.bt-copia{
+    display: flex;
+    justify-content: center;
+}
+
+.texto-desencriptado{
+    align-items: center;
+    width: 100%;
+    height: calc(100% + 60px);
+    background: rgb(27, 25, 25);
+    border-radius: 32px;
+    display: flex;
+
+}
+
+.pie-pagina {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.box{
+    display: flex;
+    margin-top: 10px;
+    
+}
+footer{
+    width: 100%;
+    margin-top: 10px;
+    border-top: 1px solid #0A3871;
+}
+
+i .fa-brands .fa-github{
+     background-color: black;
+}
+
+@media  (max-width: 700px) {
+    main{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .logo{
+        width: 90px;
+    }
+
+    .texto-Encriptar{
+        margin-right: 50px;
+    }
+
+    .info{
+        text-align: center;
+    }
+    .tex{
+        display: flex;
+        justify-content: center;
+    }
+
+    .bt-encriptar{
+        padding: 5px 20px;
+    }
+
+    .bt-desencriptar{
+        padding: 5px 20px;
+    }
+
+    .bt-copiar{
+        padding: 5px 20px;
+    }
+
+
+
+}
